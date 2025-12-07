@@ -1,0 +1,26 @@
+
+Enter the number of locks (enter -1 to stop): 50
+Enter the number of stocks and barrels:  20 30
+Total locks = 50
+Total stocks = 20
+Total barrels = 30
+
+Enter the number of locks (enter -1 to stop): 25
+Enter the number of stocks and barrels: 40 10
+New total locks = 75 not in the range 1..70 so old value retained
+Total locks = 50
+Total stocks = 60
+Total barrels = 40
+
+Enter the number of locks (enter -1 to stop): -1
+
+Final totals:
+Total locks = 50
+Total stocks = 60
+Total barrels = 40
+
+The total sales = 5050.00
+The commission is = 870.00
+
+Process returned 0 (0x0)   execution time : 29.149 s
+Press any key to continue.
