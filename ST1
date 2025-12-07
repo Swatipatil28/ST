@@ -1,0 +1,19 @@
+#include<stdio.h>
+void main()
+{
+int a,b,c;
+char Istriangle;
+printf("Enter the A, B, C:- ");
+scanf("%d%d%d",&a,&b,&c);
+if((a+b>c)&&(b+c>a)&&(c+a>b)) Istriangle = 'Y';
+else Istriangle = 'N';
+if(Istriangle == 'Y')
+{
+if((a==b)&&(b==c)) printf("Equilateral Triangle\n");
+else if((a==b)||(b==c)||(c==a)) printf("Isosceles Triangle\n");
+else printf("Scalene Triangle\n");
+}
+else
+printf("Not a Triangle\n");
+return 0;
+}
